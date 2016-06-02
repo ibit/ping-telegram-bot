@@ -38,7 +38,7 @@ var PingBot = function() {
             type: 'article',
             id: '0',
             title: "Pinging " +  data.address + "...",
-            description: "It's alive! click for details.",
+            description: "It's alive!! click for details.",
             input_message_content : {
                 message_text: createMessage(data),
                 parse_mode: 'Markdown',
